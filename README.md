@@ -11,7 +11,7 @@ This project demonstrates how to use Aspect-Oriented Programming (AOP) in a Java
 
 ## Prerequisites
 
-- Java 11 or later
+- Java 17 or later
 - Maven (for building and running the project)
 - A basic understanding of Java and Spring AOP
 
