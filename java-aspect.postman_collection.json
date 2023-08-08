@@ -1,0 +1,86 @@
+{
+	"info": {
+		"_postman_id": "cfa54626-4a1d-4da5-adf9-8dbf32f4d540",
+		"name": "java-aspect",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5759891"
+	},
+	"item": [
+		{
+			"name": "default-log",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/default-log",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"default-log"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "info-log",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/info-log",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"info-log"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "warn-log",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/warn-log",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"warn-log"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "error-log",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/error-log",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"error-log"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
